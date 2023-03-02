@@ -5,11 +5,13 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class homework_3 {
+public class Homework_3 {
 
         @BeforeAll
         static void setUp() {
@@ -45,7 +47,9 @@ public class homework_3 {
         $("#subjectsInput").setValue(subjects).pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#hobbiesWrapper").$(byText("Music")).click();
-        $("#uploadPicture").uploadFromClasspath("test.jpg");
+        File fileToUpload = new File("src/test/resources/pictures/test.jpg");
+        $("#uploadPicture").uploadFile(fileToUpload);
+//        $("#uploadPicture").uploadFromClasspath("test.jpg");
         $("#currentAddress").setValue(address);
         $("#state").click();
         $("#stateCity-wrapper").$(byText("NCR")).click();

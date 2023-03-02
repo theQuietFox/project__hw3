@@ -1,4 +1,4 @@
 package ru.qa.irakulikova;
 
-public class hw_03Impl extends homework_3 {
+public class hw_03Impl extends Homework_3 {
 }
