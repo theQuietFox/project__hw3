@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be79023a-0fe3-4389-9329-04d16bb55188" name="Changes" comment="" />
+    <list default="true" id="be79023a-0fe3-4389-9329-04d16bb55188" name="Changes" comment="working version of the test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,6 +200,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677331489782</updated>
     </task>
+    <task id="LOCAL-00001" summary="working version of the test">
+      <created>1677789679131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677789679131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +220,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working version of the test" />
+    <option name="LAST_COMMIT_MESSAGE" value="working version of the test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project_hw3$hw_3_practiceForm.ic" NAME="hw_3.practiceForm Coverage Results" MODIFIED="1677535244311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
