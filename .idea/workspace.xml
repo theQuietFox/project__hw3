@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677791792844</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The name of the class was changed, the unused Import Com.codeborne.selenide.conditis; &quot;, the JPG file was transferred to pictures">
+      <created>1677792121021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677792121021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

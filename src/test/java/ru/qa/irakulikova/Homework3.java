@@ -48,7 +48,6 @@ public class Homework3 {
         $("#hobbiesWrapper").$(byText("Music")).click();
         File fileToUpload = new File("src/test/resources/pictures/test.jpg");
         $("#uploadPicture").uploadFile(fileToUpload);
-//        $("#uploadPicture").uploadFromClasspath("test.jpg");
         $("#currentAddress").setValue(address);
         $("#state").click();
         $("#stateCity-wrapper").$(byText("NCR")).click();
